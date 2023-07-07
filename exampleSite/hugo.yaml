@@ -28,19 +28,19 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/fx.png
     link: /
     # Default width/height. Uncomment if you need to change
-    # width: 112
-    # height: 28
+    width: 160
+    height: 64
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: 范数科技
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: 供采销产一体化解决方案, 助力小型企业健康快速成长
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -55,7 +55,7 @@ params:
     - logo: tribe
       url: https://stefma.github.io/hugo-fresh/
     - logo: kromo
-      url: https://github.com/mxsl-gr/hugo-fresh
+      url: https://github.com/StefMa/hugo-fresh
     - logo: infinite
       url: https://hugo-fresh.vercel.app/
     - logo: gutwork
@@ -79,40 +79,40 @@ params:
   - title: Sign up
     url: /
     button: true
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
   section1:
     title: Great power comes
     subtitle: with great responsibility
